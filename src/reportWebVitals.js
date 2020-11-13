@@ -11,3 +11,15 @@ const reportWebVitals = onPerfEntry => {
 };
 
 export default reportWebVitals;
+
+export function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready
+      .then(registration => {
+        registration.unregister();
+      })
+      .catch(error => {
+        console.error(error.message);
+      });
+  }
+}
