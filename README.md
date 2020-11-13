@@ -4,10 +4,13 @@ University v2 website
 13/11/2020
 
 *Navbar
+
     >Contains logo and page links
     >Changes to burger menu when page is to small
+    >opens selected page
 
 *Pages links
+
     >Home / Logo
     >Subjects
     >News

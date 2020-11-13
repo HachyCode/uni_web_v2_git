@@ -8,14 +8,14 @@ import {
     NavBtnLink
 } from './NavbarElements';
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
         <>
         <Nav>
             <NavLink to='/'>
                 <h1>Logo</h1>
             </NavLink>
-            <Bars />
+            <Bars onClick={toggle}/>
             <NavMenu>
                 <NavLink to='/Subjects' activeStyle>
                     Subjects
