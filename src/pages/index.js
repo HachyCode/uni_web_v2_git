@@ -1,11 +1,31 @@
 import React from 'react';
+import Home from '../pages/Home';
+import Subjects from '../pages/Subjects';
+import News from '../pages/News';
+import {Container, Row, Col} from 'react-bootstrap'
 
-const Home = () => {
+const Main = () => {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '90vh'}}>
-      <h1>Home</h1>
+    <div>
+      <Container>
+        <Row>
+          <Col>
+            <Home/> {/*Displays home content*/}
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Subjects/> {/*Displays subjects content*/}
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <News/> {/*Displays newa content*/}
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };
 
-export default Home;
+export default Main;
