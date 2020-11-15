@@ -4,6 +4,7 @@ const Subjects = () => {
   return (
     <div
       style={{
+        backgroundColor: 'lightblue',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',

@@ -7,7 +7,7 @@ const News = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '90vh'
+        height: '30vh'
       }}
     >
       <h1>News</h1>
