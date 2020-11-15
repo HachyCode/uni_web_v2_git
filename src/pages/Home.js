@@ -4,7 +4,7 @@ import {Carousel, img,} from 'react-bootstrap'
 const Home = () => {
     return (
         <div style={{ display: 'flex', justifyContent: 'left', alignItems: 'center', height: '90vh'}}>
-            <Carousel>
+            <Carousel indicators = {false}>
                 <Carousel.Item interval={1000}>
                     <img
                     className="d-block w-100"

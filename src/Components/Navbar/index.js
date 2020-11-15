@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { animateScroll as scroll } from 'react-scroll';
 import {
     Nav,
     NavLink,
@@ -9,9 +10,32 @@ import {
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
+
+    
+    const [scrollNav, setScrollNav] = useState(false);
+    
+    const changeNav = () => {
+    
+        if (window.scrollY >= 80) {
+        setScrollNav(true);
+        } 
+    
+        else {
+        setScrollNav(false);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', changeNav);
+    }, []);
+
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    };
+
     return (
         <>
-        <Nav>
+        <Nav scrollNav={scrollNav} >
             <NavLink to='/'>
                 <h1>Logo</h1>
             </NavLink>
