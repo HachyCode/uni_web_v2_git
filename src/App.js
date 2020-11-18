@@ -11,6 +11,8 @@ import MoreInfo from './pages/MoreInfo';
 import Main from './pages';
 import Footer from './Components/Footer';
 
+import ScrollToTop from './Components/ScrollToTop';
+
 function App() {
 
   const [isOpen, setIsOpen] = useState(false);

@@ -33,24 +33,25 @@ const Navbar = ({ toggle }) => {
         scroll.scrollToTop();
     };
 
+
     return (
         <>
         <Nav scrollNav={scrollNav} >
-            <NavLink to='/'>
+            <NavLink to='/' onClick={toggleHome}>
                 <h1>Logo</h1>
             </NavLink>
             <Bars onClick={toggle}/>
             <NavMenu>
-                <NavLink to='/Subjects' activeStyle>
+                <NavLink to='/Subjects' activeStyle onClick={toggleHome}>
                     Subjects
                 </NavLink>
-                <NavLink to='/News' activeStyle>
+                <NavLink to='/News' activeStyle onClick={toggleHome}>
                     News
                 </NavLink>
-                <NavLink to='/Support' activeStyle>
+                <NavLink to='/Support' activeStyle onClick={toggleHome}>
                     Support
                 </NavLink>
-                <NavLink to='/MoreInfo' activeStyle>
+                <NavLink to='/MoreInfo' activeStyle onClick={toggleHome}>
                     MoreInfo
                 </NavLink>
             {/* Second Nav */}
