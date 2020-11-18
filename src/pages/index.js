@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from '../pages/Home';
-import Subjects from '../pages/Subjects';
+import SubjectsPage from '../pages/SubjectsPage';
 import News from '../pages/News';
 import {Row, Col} from 'react-bootstrap'
 
@@ -14,7 +14,7 @@ const Main = () => {
         </Row>
         <Row>
           <Col>
-            <Subjects/> {/*Displays subjects content*/}
+            <SubjectsPage/> {/*Displays subjects content*/}
           </Col>
         </Row>
         <Row>
