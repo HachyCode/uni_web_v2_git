@@ -5,8 +5,6 @@ import {
     NavLink,
     Bars,
     NavMenu,
-    NavBtn,
-    NavBtnLink
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -48,18 +46,13 @@ const Navbar = ({ toggle }) => {
                 <NavLink to='/News' activeStyle onClick={toggleHome}>
                     News
                 </NavLink>
-                <NavLink to='/Support' activeStyle onClick={toggleHome}>
-                    Support
+                <NavLink to='/UCASCalculator' activeStyle onClick={toggleHome}>
+                    UCASCalculator
                 </NavLink>
-                <NavLink to='/MoreInfo' activeStyle onClick={toggleHome}>
-                    MoreInfo
+                <NavLink to='/SingIn' activeStyle onClick={toggleHome}>
+                    SingIn
                 </NavLink>
-            {/* Second Nav */}
-            {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
             </NavMenu>
-            <NavBtn>
-                <NavBtnLink to='/SignIn'>Sign In</NavBtnLink>
-            </NavBtn>
         </Nav>
         </>
     );

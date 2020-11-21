@@ -6,12 +6,10 @@ import Navbar from './Components/Navbar';
 import Sidebar from './Components/Sidebar';
 import Subjects from './pages/SubjectsPage';
 import News from './pages/News';
-import Support from './pages/Support';
-import MoreInfo from './pages/MoreInfo';
+import UCASCalculator from './pages/UCASCalculator';
 import Main from './pages';
 import Footer from './Components/Footer';
-
-import ScrollToTop from './Components/ScrollToTop';
+import SingIn from './pages/SingIn';
 
 function App() {
 
@@ -27,10 +25,10 @@ function App() {
       <Navbar toggle={toggle} />
       <Switch>
         <Route path='/' exact component={Main} />
-        <Route path='/Subjects' component={Subjects} exact/>
+        <Route path='/Subjects' component={Subjects} />
         <Route path='/News' component={News} />
-        <Route path='/Support' component={Support} />
-        <Route path='/MoreInfo' component={MoreInfo} />
+        <Route path='/UCASCalculator' component={UCASCalculator} />
+        <Route path='/SingIn' component={SingIn} />
       </Switch>
       <Footer/>
     </Router>

@@ -17,7 +17,9 @@ const MoreInfo = () => {
                 borderRight: '500px solid transparent',
                 borderBottom: '91vh solid coral',
               }}
-        ></div>
+        >
+          <h1>HIIBHB</h1>
+        </div>
       </div>
   );
 };
