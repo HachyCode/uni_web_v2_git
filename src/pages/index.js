@@ -17,12 +17,12 @@ const Main = () => {
         </Row>
         <Row>
           <Col>
-            <SubjectsPage/> {/*Displays subjects content*/}
+            <News/>{/*Displays news content*/}
           </Col>
         </Row>
         <Row>
           <Col>
-            <News/> {/*Displays newa content*/}
+            <SubjectsPage/>{/*Displays subjects content*/}
           </Col>
         </Row>
     </div>
