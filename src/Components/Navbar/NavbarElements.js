@@ -13,6 +13,16 @@ export const Nav = styled.nav`
     z-index: 10;
 `;
 
+export const NavMenu = styled.div`
+    display: flex;
+    align-items: center;
+    margin-right: -24px;
+
+    @media screen and (max-width: 768px) {
+    display: none;
+    }
+`;
+
 export const NavLink = styled(Link)`
     color: #ffffff;
     display: flex;
@@ -44,44 +54,5 @@ export const Bars = styled(FaBars)`
     transform: translate(-100%, 75%);
     font-size: 1.8rem;
     cursor: pointer;
-    }
-`;
-
-export const NavMenu = styled.div`
-    display: flex;
-    align-items: center;
-    margin-right: -24px;
-
-    @media screen and (max-width: 768px) {
-    display: none;
-    }
-`;
-
-export const NavBtn = styled.nav`
-    display: flex;
-    align-items: center;
-    margin-right: 24px;
-
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
-`;
-
-export const NavBtnLink = styled(Link)`
-    border-radius: 4px;
-    background: #256ce1;
-    padding: 10px 22px;
-    color: #ffffff;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-    margin-left: 24px;
-
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: #ffffff;
-        color: #010606;
     }
 `;

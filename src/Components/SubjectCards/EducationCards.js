@@ -19,32 +19,32 @@ const EducationCards = () => {
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Acount and Finance</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>Early Years and Education</SubjectsH2>
+            <SubjectsP>FDA</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management</SubjectsH2>
-            <SubjectsP>FDSC</SubjectsP>
+            <SubjectsH2>Professional Studies (Early Childhood)</SubjectsH2>
+            <SubjectsP>FDA</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>Professional Studies (Education)</SubjectsH2>
+            <SubjectsP>FDA</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management with Human Resources</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>Education Studies (Top-Up)</SubjectsH2>
+            <SubjectsP>BA (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management with Marketing</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>Education, Training and Skills</SubjectsH2>
+            <SubjectsP>(Certificate / Professional Graduate Diploma)</SubjectsP>
             </SubjectsCard>
 
         </SubjectsWrapper>

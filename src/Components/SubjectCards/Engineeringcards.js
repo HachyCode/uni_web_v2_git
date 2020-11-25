@@ -19,32 +19,32 @@ const EngineeringCards = () => {
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Acount and Finance</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>Engineering (Electrical and Electronic)</SubjectsH2>
+            <SubjectsP>HNC</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management</SubjectsH2>
-            <SubjectsP>FDSC</SubjectsP>
+            <SubjectsH2>Engineering (Manufacturing)</SubjectsH2>
+            <SubjectsP>HNC/HND</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>Engineering (Mechanical)</SubjectsH2>
+            <SubjectsP>HNC</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management with Human Resources</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>Electrical and Electronic Control System Engineering</SubjectsH2>
+            <SubjectsP>BENG (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management with Marketing</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>Mechanical and Manufacturing Engineering</SubjectsH2>
+            <SubjectsP>BENG (HONS)</SubjectsP>
             </SubjectsCard>
 
         </SubjectsWrapper>

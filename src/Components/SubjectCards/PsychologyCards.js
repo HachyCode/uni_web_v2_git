@@ -19,32 +19,26 @@ const PsychologyCards = () => {
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Acount and Finance</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>Psychosocial Studies</SubjectsH2>
+            <SubjectsP>BA (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management</SubjectsH2>
-            <SubjectsP>FDSC</SubjectsP>
+            <SubjectsH2>Sociology</SubjectsH2>
+            <SubjectsP>BA (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>Therapeutic Counselling</SubjectsH2>
+            <SubjectsP>Diploma</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management with Human Resources</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
-            </SubjectsCard>
-
-            <SubjectsCard>
-            <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management with Marketing</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>Person Centered and CBT Counselling and Psychology (Top-Up)</SubjectsH2>
+            <SubjectsP>BA (HONS)</SubjectsP>
             </SubjectsCard>
 
         </SubjectsWrapper>

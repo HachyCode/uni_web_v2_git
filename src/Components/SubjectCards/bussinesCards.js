@@ -14,7 +14,7 @@ const CommunicationCards = () => {
     return (
         <>
         <SubjectsContainer>
-        <SubjectsH1>Communication</SubjectsH1>
+        <SubjectsH1>Bussines</SubjectsH1>
         <SubjectsWrapper>
 
             <SubjectsCard>

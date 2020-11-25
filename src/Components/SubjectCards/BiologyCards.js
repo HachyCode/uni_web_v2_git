@@ -19,31 +19,19 @@ const BiologyCards = () => {
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Acount and Finance</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>Animal Management (Animal Behaviour and Welfare)</SubjectsH2>
+            <SubjectsP>HNC/HND</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management</SubjectsH2>
+            <SubjectsH2>Biology Sciences</SubjectsH2>
             <SubjectsP>FDSC</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
-            </SubjectsCard>
-
-            <SubjectsCard>
-            <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management with Human Resources</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
-            </SubjectsCard>
-
-            <SubjectsCard>
-            <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management with Marketing</SubjectsH2>
+            <SubjectsH2>Biology Sciences</SubjectsH2>
             <SubjectsP>BSC (HONS)</SubjectsP>
             </SubjectsCard>
 

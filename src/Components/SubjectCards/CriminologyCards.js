@@ -19,31 +19,25 @@ const CriminologyCards = () => {
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Acount and Finance</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
-            </SubjectsCard>
-
-            <SubjectsCard>
-            <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management</SubjectsH2>
+            <SubjectsH2>Forensic Investion</SubjectsH2>
             <SubjectsP>FDSC</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management</SubjectsH2>
+            <SubjectsH2>Forensic Investion</SubjectsH2>
             <SubjectsP>BSC (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management with Human Resources</SubjectsH2>
+            <SubjectsH2>Criminology</SubjectsH2>
             <SubjectsP>BSC (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management with Marketing</SubjectsH2>
+            <SubjectsH2>History and Archaeology</SubjectsH2>
             <SubjectsP>BSC (HONS)</SubjectsP>
             </SubjectsCard>
 

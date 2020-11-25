@@ -19,32 +19,14 @@ const LiteratureCards = () => {
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Acount and Finance</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>English Literature</SubjectsH2>
+            <SubjectsP>BA (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
             <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management</SubjectsH2>
-            <SubjectsP>FDSC</SubjectsP>
-            </SubjectsCard>
-
-            <SubjectsCard>
-            <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
-            </SubjectsCard>
-
-            <SubjectsCard>
-            <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management with Human Resources</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
-            </SubjectsCard>
-
-            <SubjectsCard>
-            <img src={Bussines} height="100px"/>
-            <SubjectsH2>Business Management with Marketing</SubjectsH2>
-            <SubjectsP>BSC (HONS)</SubjectsP>
+            <SubjectsH2>English Literature with Creatinve Writing</SubjectsH2>
+            <SubjectsP>BA (HONS)</SubjectsP>
             </SubjectsCard>
 
         </SubjectsWrapper>

@@ -10,6 +10,7 @@ import UCASCalculator from './pages/UCASCalculator';
 import Main from './pages';
 import Footer from './Components/Footer';
 import SingIn from './pages/SingIn';
+import DigitalArts from './pages/SubjectsPages/DigitalArts';
 
 function App() {
 
@@ -20,18 +21,22 @@ function App() {
   }
 
   return (
-    <Router>
-      <Sidebar isOpen = {isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
-      <Switch>
-        <Route path='/' exact component={Main} />
-        <Route path='/Subjects' component={Subjects} />
-        <Route path='/News' component={News} />
-        <Route path='/UCASCalculator' component={UCASCalculator} />
-        <Route path='/SingIn' component={SingIn} />
-      </Switch>
-      <Footer/>
-    </Router>
+    <div className="web">
+      <Router>
+        <Sidebar isOpen = {isOpen} toggle={toggle} />
+        <Navbar toggle={toggle} />
+        <Switch>
+          <Route path='/' exact component={Main} />
+          <Route path='/Subjects' component={Subjects} />
+          <Route path='/News' component={News} />
+          <Route path='/UCASCalculator' component={UCASCalculator} />
+          <Route path='/SingIn' component={SingIn} />
+
+          <Route path='/DigitalArts' component={DigitalArts} />
+        </Switch>
+        <Footer/>
+      </Router>
+    </div>
   );
 }
 

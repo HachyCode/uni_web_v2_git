@@ -3,7 +3,7 @@ import React from 'react'
 const UCAS = () => {
     return (
         <div>
-            <h1> hi stupid</h1>
+            <h1> UCAS calculator</h1>
         </div>
     )
 }
