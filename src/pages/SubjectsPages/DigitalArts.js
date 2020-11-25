@@ -5,7 +5,17 @@ import {
     CourseCard,
     CourseImage,
     CourseDetailse,
-    CourseInfo
+    CourseInfo,
+    ImageCard,
+    CourseType,
+    CourseName,
+    CourseMore,
+    UcasCode,
+    InstitutionCode,
+    AccreditedBy,
+    CourseOtherInfo,
+    H3,
+    H2
 } from './CourseElements';
 import Bussines from '../../Images/Bussines.jpg';
 
@@ -14,19 +24,25 @@ const DigitalArts = () => {
         <>
         <CourseCard>
             <CourseDetailse>
-                <CourseImage>
-                    <img src={Bussines} className=""/>
-                </CourseImage>
-                <Course>
-                    <h1>FDA Digital Arts</h1>
-                </Course>
+                <ImageCard>
+                    <CourseImage src={Bussines}/>
+                </ImageCard>
+                <CourseInfo>
+                    <Course>
+                        <CourseType>FDA</CourseType>
+                        <CourseName>Digital Arts</CourseName>
+                    </Course>
+                    <CourseMore>
+                        <UcasCode><H3>Ucas Code:</H3><H2>GG45</H2></UcasCode>
+                        <InstitutionCode><H3>Institution Code:</H3><H2>P56</H2></InstitutionCode>
+                        <AccreditedBy><H3>Accredited By:</H3><H2>Anglia Ruskin University</H2></AccreditedBy>
+                    </CourseMore>
+                </CourseInfo>
             </CourseDetailse>
 
-            <CourseInfo>
-                <KeyFacts>
-                    <h2>HI</h2>
-                </KeyFacts>
-            </CourseInfo>
+            <CourseOtherInfo>
+                <KeyFacts>HI</KeyFacts>
+            </CourseOtherInfo>
 
         </CourseCard>
         </>
