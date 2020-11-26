@@ -19,24 +19,21 @@ const News = () => {
             <SubjectsCard> 
             <i class="fas fa-shield-virus fa-3x"></i>
               <div>
-              <SubjectsH2>Acount and Finance</SubjectsH2>
-              <SubjectsP>BSC (HONS)</SubjectsP>
+              <SubjectsH2>Courona Viruse</SubjectsH2>
               </div>
             </SubjectsCard>
 
             <SubjectsCard>
-            <i class="fas fa-shield-virus fa-3x"></i>
+            <i class="fas fa-info-circle fa-3x"></i>
               <div>
-              <SubjectsH2>Acount and Finance</SubjectsH2>
-              <SubjectsP>BSC (HONS)</SubjectsP>
+              <SubjectsH2>Open Days</SubjectsH2>
               </div>
             </SubjectsCard>
 
             <SubjectsCard>
-            <i class="fas fa-shield-virus fa-3x"></i>
+            <i class="fas fa-exclamation-triangle fa-3x"></i>
               <div>
-              <SubjectsH2>Acount and Finance</SubjectsH2>
-              <SubjectsP>BSC (HONS)</SubjectsP>
+              <SubjectsH2>Virtual 1:1 Sessions</SubjectsH2>
               </div>
             </SubjectsCard>
 

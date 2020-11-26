@@ -117,11 +117,11 @@ export const CourseOtherInfo = styled.div`
 export const InfoCard = styled.div`
     height: auto;
     background: #1b1e23;
-
 `;
 export const TopCard = styled.div`
     background: #b2dddf;
     font-size: 2rem;
+    font-weight: 600;
 
     @media screen and (max-width: 500px) {
         font-size: 1.7rem;

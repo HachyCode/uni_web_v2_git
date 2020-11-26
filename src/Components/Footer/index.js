@@ -22,6 +22,7 @@ import {
   SocialIcons,
   SocialIconLink
 } from './FooterElements';
+import white_Logo from '../../Images/Logo_White.png';
 
 const Footer = () => {
   const toggleHome = () => {
@@ -33,7 +34,6 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Contact Us</FooterLinkTitle>
               <FooterLink to='/'>Phone 028358089346</FooterLink>
               <FooterLink to='/'>Location</FooterLink>
               <FooterLink to='/'></FooterLink>
@@ -44,15 +44,19 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              Logo
+              <img src={white_Logo} height="50px"/>
             </SocialLogo>
             <WebsiteRights>University Center Peterborough © 2020 All rights reserved.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
-                <FaFacebook />
+              <SocialIconLink 
+              href='https://www.facebook.com/ucpeterborough' 
+              target='_blank' 
+              aria-label='Facebook'>
+                
+              <FaFacebook />
               </SocialIconLink>
               <SocialIconLink
-                href='//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                href='https://www.youtube.com/channel/UCMGvV-0uiAtsnXLWOu7IfOA'
                 target='_blank'
                 aria-label='Youtube'
                 rel='noopener noreferrer'
@@ -62,11 +66,14 @@ const Footer = () => {
               <SocialIconLink
                 target='_blank'
                 aria-label='Twitter'
-                href='//www.twitter.com/briandesignz'
+                href='https://twitter.com/ucpeterborough'
               >
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
+              <SocialIconLink 
+              href='https://www.linkedin.com/company/university-centre-peterborough/' 
+              target='_blank' 
+              aria-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>

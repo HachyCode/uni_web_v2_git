@@ -18,13 +18,13 @@ const SportCards = () => {
         <SubjectsWrapper>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Sport and Exercise Science (in Partnership with Peterborough united foundation)</SubjectsH2>
             <SubjectsP>BSC (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Sport and Exercise Science</SubjectsH2>
             <SubjectsP>BSC (HONS)</SubjectsP>
             </SubjectsCard>

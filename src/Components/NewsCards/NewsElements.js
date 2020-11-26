@@ -6,7 +6,7 @@ export const SubjectsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #fff;
 
 `;
 
@@ -30,7 +30,7 @@ export const SubjectsWrapper = styled.div`
 `;
 
 export const SubjectsCard = styled.div`
-  background: #fff;
+  background: #31b7bc;
   display: grid;
   grid-template-columns: 1fr 3fr;
   align-items: center;
@@ -50,7 +50,7 @@ export const SubjectsCard = styled.div`
 
 export const SubjectsH1 = styled.h1`
   font-size: 2.5rem;
-  color: #fff;
+  color: #000;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
@@ -59,9 +59,10 @@ export const SubjectsH1 = styled.h1`
 `;
 
 export const SubjectsH2 = styled.h2`
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
   text-align: center;
+  color: #fff;
 `;
 
 export const SubjectsP = styled.p`

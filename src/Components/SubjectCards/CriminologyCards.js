@@ -18,25 +18,25 @@ const CriminologyCards = () => {
         <SubjectsWrapper>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Forensic Investion</SubjectsH2>
             <SubjectsP>FDSC</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Forensic Investion</SubjectsH2>
             <SubjectsP>BSC (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Criminology</SubjectsH2>
             <SubjectsP>BSC (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>History and Archaeology</SubjectsH2>
             <SubjectsP>BSC (HONS)</SubjectsP>
             </SubjectsCard>

@@ -18,13 +18,13 @@ const LiteratureCards = () => {
         <SubjectsWrapper>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>English Literature</SubjectsH2>
             <SubjectsP>BA (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>English Literature with Creatinve Writing</SubjectsH2>
             <SubjectsP>BA (HONS)</SubjectsP>
             </SubjectsCard>

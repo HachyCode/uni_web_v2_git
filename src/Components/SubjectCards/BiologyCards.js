@@ -18,19 +18,19 @@ const BiologyCards = () => {
         <SubjectsWrapper>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Animal Management (Animal Behaviour and Welfare)</SubjectsH2>
             <SubjectsP>HNC/HND</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Biology Sciences</SubjectsH2>
             <SubjectsP>FDSC</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Biology Sciences</SubjectsH2>
             <SubjectsP>BSC (HONS)</SubjectsP>
             </SubjectsCard>

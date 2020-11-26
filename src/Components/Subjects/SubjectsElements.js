@@ -2,12 +2,13 @@ import styled from 'styled-components';
 import { Link as Link } from 'react-router-dom';
 
 export const SubjectsContainer = styled.div`
-  height: 900px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #fff;
+  padding: 50px 0;
 
   @media screen and (max-width: 1500px){
     height: 900px;
@@ -27,10 +28,10 @@ export const SubjectsContainer = styled.div`
 `;
 
 export const SubjectsWrapper = styled.div`
-  width: 90vw;
+  width: 100vw;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
@@ -56,9 +57,8 @@ export const SubjectsCard = styled(Link)`
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  height: 240px;
+  height: auto;
   padding: 30px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 
   &:hover {
@@ -68,16 +68,14 @@ export const SubjectsCard = styled(Link)`
   }
 `;
 
-export const SubjectsIcon = styled.img`
-  height: 160px;
-  width: 160px;
-  margin-bottom: 10px;
-`;
-
 export const SubjectsH1 = styled.h1`
   font-size: 2.5rem;
-  color: #fff;
+  color: #000;
   margin-bottom: 64px;
+  font-weight: 700;
+  width: 100vw;
+  background: #b2dddf;
+  text-align: center;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -89,10 +87,13 @@ export const SubjectsH2 = styled.h2`
   margin-bottom: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: red;
+  color: #005c6e;
 `;
 
 export const SubjectsP = styled.p`
   font-size: 1rem;
   text-align: center;
+  color: #005c6e;
 `;
+
+

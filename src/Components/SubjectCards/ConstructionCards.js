@@ -18,31 +18,31 @@ const ConstructionCards = () => {
         <SubjectsWrapper>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Construction</SubjectsH2>
             <SubjectsP>HNC</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Construction (Architectural Technology)</SubjectsH2>
             <SubjectsP>HND</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Construction (Construction Management)</SubjectsH2>
             <SubjectsP>HNC/HND</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Construction (Surveying)</SubjectsH2>
             <SubjectsP>HNC/HND</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Construction</SubjectsH2>
             <SubjectsP>BSC (HONS)</SubjectsP>
             </SubjectsCard>

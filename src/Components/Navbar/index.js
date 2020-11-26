@@ -6,7 +6,7 @@ import {
     Bars,
     NavMenu,
 } from './NavbarElements';
-import {White_Logo} from '../../Images/Logo_White.png';
+import white_Logo from '../../Images/Logo_White.png';
 
 const Navbar = ({ toggle }) => {
 
@@ -37,7 +37,7 @@ const Navbar = ({ toggle }) => {
         <>
         <Nav scrollNav={scrollNav} >
             <NavLink to='/' onClick={toggleHome}>
-                <img src = {White_Logo}/>
+                <img src = {white_Logo} height="50px"/>
             </NavLink>
             <Bars onClick={toggle}/>
             <NavMenu>
@@ -48,10 +48,10 @@ const Navbar = ({ toggle }) => {
                     News
                 </NavLink>
                 <NavLink to='/UCASCalculator' activeStyle onClick={toggleHome}>
-                    UCASCalculator
+                    UCAS Calculator
                 </NavLink>
                 <NavLink to='/SingIn' activeStyle onClick={toggleHome}>
-                    SingIn
+                    Sing In
                 </NavLink>
             </NavMenu>
         </Nav>

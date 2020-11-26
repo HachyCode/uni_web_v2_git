@@ -1,5 +1,17 @@
 .fa-shield-virus{
     background: transparent;
     padding: 10px;
-    color: red;
+    color: #005c6e;
+}
+
+.fa-info-circle{
+    background: transparent;
+    padding: 10px;
+    color: #005c6e;
+}
+
+.fa-exclamation-triangle{
+    background: transparent;
+    padding: 10px;
+    color: #005c6e;
 }

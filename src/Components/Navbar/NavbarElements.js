@@ -33,18 +33,18 @@ export const NavLink = styled(Link)`
     cursor: pointer;
 
     &:hover {
-        color: #01bf71;
+        color: #f08575;
         transition: 0.2s ease-in-out;
     }
 
     &.active {
-        color: #15cdfc;
+        color: #31b7bc;
     }
 `;
 
 export const Bars = styled(FaBars)`
     display: none;
-    color: #ffffff;
+    color: #f08575;
 
     @media screen and (max-width: 768px) {
     display: block;

@@ -18,25 +18,25 @@ const CommunicationCards = () => {
         <SubjectsWrapper>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Digital Marketing and Communications</SubjectsH2>
             <SubjectsP>FDA</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Digital Marketing and Communications</SubjectsH2>
             <SubjectsP>BA (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Journalism</SubjectsH2>
             <SubjectsP>BA (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={Bussines} height="200px"/>
             <SubjectsH2>Media Production</SubjectsH2>
             <SubjectsP>BSC (HONS)</SubjectsP>
             </SubjectsCard>
