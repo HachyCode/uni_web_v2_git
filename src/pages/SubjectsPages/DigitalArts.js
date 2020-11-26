@@ -17,7 +17,7 @@ import {
     H3,
     H2,
     TopCard,
-    LeftCard,
+    TextCard,
     Location,
     Icon,
     Text,
@@ -26,7 +26,6 @@ import {
     Duration,
     StartDates,
     TuitionFees,
-    RightCard,
     EntryRequiremts
 } from './CourseElements';
 import DigitalArt from '../../Images/DigitalArts.jpg';
@@ -57,7 +56,7 @@ const DigitalArts = () => {
             <CourseOtherInfo>
                 <KeyFacts>
                     <TopCard>KEY FACTS</TopCard>
-                    <LeftCard>
+                    <TextCard>
                         <Location>
                             <Icon/>
                             <Text>
@@ -106,19 +105,12 @@ const DigitalArts = () => {
                                 </PInfo>
                             </Text>
                         </TuitionFees>
-                    </LeftCard>
-                    <RightCard>
                         <EntryRequiremts>
                             <Icon/>
                             <Text>
                                 <Title>Entry requirements</Title>
                                 <PInfo>
-                                    48 UCAS points:
-                                        ■ A-levels
-                                        ■ BTEC Level 3 National Diploma
-                                        ■ Cambridge Technicals Level 3
-                                        ■ IB Diploma
-                                        ■ Access to HE
+                                    48 UCAS points: A-levels, BTEC Level 3 National Diploma, Cambridge Technicals Level 3, IB Diploma, Access to HE
                                 </PInfo>
                                 <PInfo>
                                     You must have GCSEs English and Mathematics
@@ -131,7 +123,7 @@ const DigitalArts = () => {
                                 </PInfo>
                             </Text>
                         </EntryRequiremts>
-                    </RightCard>
+                    </TextCard>
                 </KeyFacts>
             </CourseOtherInfo>
         </CourseCard>

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const CourseCard = styled.div`
-    background: white;
     height: 2000px;
 `;
 
@@ -58,7 +57,7 @@ export const Course = styled.div`
 `;
 export const CourseType = styled.h1`
     font-size: 1.5rem;
-    background: lightblue;
+    background: #b2dddf;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +65,7 @@ export const CourseType = styled.h1`
 export const CourseName = styled.h1`
     font-size: 4rem;
     text-decoration: underline;
-    text-decoration-color: lightblue;
+    text-decoration-color: #b2dddf;
 
     @media screen and (max-width: 700px) {
         font-size: 3rem;
@@ -88,7 +87,7 @@ export const H3 = styled.div`
 `;
 export const H2 = styled.div`
     padding: 0px 10px;
-    font-style: oblique;
+    font-weight: 600;
 `;
 
 export const InstitutionCode = styled.div`
@@ -103,47 +102,52 @@ export const CourseOtherInfo = styled.div`
 `;
 
 export const KeyFacts = styled.div`
-    background: yellow;
-    height: 400px;
-    padding: 20px 0px;
+    height: 600px;
+    background: #1b1e23;
+
+    @media screen and (max-width: 1300px) {
+        margin: 10px 0;
+    }
 `;
-
-
-
 export const TopCard = styled.div`
-    background: lightblue;
+    background: #b2dddf;
     font-size: 2rem;
 `;
-export const LeftCard = styled.div`
-
+export const TextCard = styled.div`
+    
 `;
-export const Location = styled.div`
 
-`;
 export const Icon = styled.div`
 
 `;
 export const Text = styled.div`
-
+    font-size: 1.2rem;
 `;
 export const Title = styled.div`
-
+    font-weight: 700;
+    font-size: 1.4rem;
 `;
 export const PInfo = styled.div`
 
 `;
-export const Duration = styled.div`
 
+export const Location = styled.div`
+    background: #ededed;
+    padding: 10px;
+`;
+export const Duration = styled.div`
+    background: #1b1e23;
+    padding: 10px;
 `;
 export const StartDates = styled.div`
-
+    background: #000;
+    padding: 10px;
 `;
 export const TuitionFees = styled.div`
-
-`;
-export const RightCard = styled.div`
-
+    background: #888;
+    padding: 10px;
 `;
 export const EntryRequiremts = styled.div`
-
+    background: #999;
+    padding: 10px;
 `;
