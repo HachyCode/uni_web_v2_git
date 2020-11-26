@@ -6,6 +6,7 @@ import {
     Bars,
     NavMenu,
 } from './NavbarElements';
+import {White_Logo} from '../../Images/Logo_White.png';
 
 const Navbar = ({ toggle }) => {
 
@@ -36,7 +37,7 @@ const Navbar = ({ toggle }) => {
         <>
         <Nav scrollNav={scrollNav} >
             <NavLink to='/' onClick={toggleHome}>
-                <h1>Logo</h1>
+                <img src = {White_Logo}/>
             </NavLink>
             <Bars onClick={toggle}/>
             <NavMenu>

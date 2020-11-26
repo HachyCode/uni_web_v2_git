@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CourseCard = styled.div`
-    height: 2000px;
+    height: auto;
 `;
 
 export const CourseDetailse = styled.div`
@@ -70,14 +70,26 @@ export const CourseName = styled.h1`
     @media screen and (max-width: 700px) {
         font-size: 3rem;
     }
+
+    @media screen and (max-width: 500px) {
+        font-size: 2rem;
+    }
 `;
 
 export const CourseMore = styled.div`
     padding: 5px 10px;
     font-size: 1.5rem;
 
+    @media screen and (max-width: 1300px) {
+        margin: 0 0 10px 0;
+    }
+
     @media screen and (max-width: 700px) {
         font-size: 1.3rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 1rem;
     }
 `;
 export const UcasCode = styled.div`
@@ -87,67 +99,84 @@ export const H3 = styled.div`
 `;
 export const H2 = styled.div`
     padding: 0px 10px;
-    font-weight: 600;
+    font-weight: 700;
 `;
 
 export const InstitutionCode = styled.div`
-display: flex;
+    display: flex;
 `;
 export const AccreditedBy = styled.div`
-display: flex;
+    display: flex;
 `;
 
 export const CourseOtherInfo = styled.div`
-
+    height: auto;
+    background: #1b1e23;
 `;
 
-export const KeyFacts = styled.div`
-    height: 600px;
+export const InfoCard = styled.div`
+    height: auto;
     background: #1b1e23;
 
-    @media screen and (max-width: 1300px) {
-        margin: 10px 0;
-    }
 `;
 export const TopCard = styled.div`
     background: #b2dddf;
     font-size: 2rem;
+
+    @media screen and (max-width: 500px) {
+        font-size: 1.7rem;
+    }
 `;
 export const TextCard = styled.div`
     
 `;
 
 export const Icon = styled.div`
-
+    display: flex;
+    justify-content: center;
+    color: #f08575;
+    padding: 2px;
 `;
 export const Text = styled.div`
     font-size: 1.2rem;
+
+    @media screen and (max-width: 700px) {
+        font-size: 1.1rem;
+    }
 `;
 export const Title = styled.div`
-    font-weight: 700;
+    font-weight: 800;
     font-size: 1.4rem;
 `;
 export const PInfo = styled.div`
-
+    padding: 5px;
 `;
 
-export const Location = styled.div`
+export const MiddleCards = styled.div`
     background: #ededed;
     padding: 10px;
+    border-bottom-style: solid;
+
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-gap: 10px;
 `;
-export const Duration = styled.div`
-    background: #1b1e23;
+
+export const BottomCards = styled.div`
+    background: #ededed;
     padding: 10px;
+
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-gap: 10px;
 `;
-export const StartDates = styled.div`
-    background: #000;
-    padding: 10px;
-`;
-export const TuitionFees = styled.div`
-    background: #888;
-    padding: 10px;
-`;
-export const EntryRequiremts = styled.div`
-    background: #999;
-    padding: 10px;
+
+export const PlaneCard = styled.div`
+    background: #ededed;
+    padding: 20px;
+    font-size: 1.2rem;
+
+@media screen and (max-width: 700px) {
+    font-size: 1.1rem;
+}
 `;

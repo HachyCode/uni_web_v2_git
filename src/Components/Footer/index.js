@@ -33,14 +33,6 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Links</FooterLinkTitle>
-              <FooterLink to='/sign-up'>How it works</FooterLink>
-              <FooterLink to='/'>Testimonials</FooterLink>
-              <FooterLink to='/'>Careers</FooterLink>
-              <FooterLink to='/'>Investors</FooterLink>
-              <FooterLink to='/'>Terms of Service</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
               <FooterLink to='/'>Phone 028358089346</FooterLink>
               <FooterLink to='/'>Location</FooterLink>
@@ -58,9 +50,6 @@ const Footer = () => {
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
-                <FaInstagram />
               </SocialIconLink>
               <SocialIconLink
                 href='//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'

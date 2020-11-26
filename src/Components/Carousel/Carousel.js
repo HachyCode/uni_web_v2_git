@@ -6,7 +6,7 @@ import carousel_3 from '../../Images/Carousel_3.png';
 
 const CarouselIndex = () => {
     return (
-        <div className="d-flex justify-content-center" style={{width: '99vw', background: '#005c6e'}}>
+        <div className="d-flex justify-content-center" style={{width: '100vw', background: '#005c6e'}}>
             <Carousel indicators = {false} fade = {true}>
                 <Carousel.Item interval={1000}>
                     <img

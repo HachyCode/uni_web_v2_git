@@ -7,7 +7,6 @@ import {
     SubjectsH2,
     SubjectsP
 } from '../Components/NewsCards/NewsElements';
-import Bussines from '../Images/Bussines.jpg';
 import '../Components/NewsCards/Icon.css';
 
 const News = () => {
