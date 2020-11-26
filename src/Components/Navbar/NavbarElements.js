@@ -3,7 +3,7 @@ import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-    background: ${({ scrollNav }) => (scrollNav ? '#666' : '#000')};
+    background: ${({ scrollNav }) => (scrollNav ? 'transparent' : '#000')};
     height: 80px;
     display: flex;
     justify-contect: space-between;

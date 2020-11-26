@@ -17,15 +17,17 @@ import {
     H3,
     H2
 } from './CourseElements';
-import Bussines from '../../Images/Bussines.jpg';
+import DigitalArt from '../../Images/DigitalArts.jpg';
+import ScrollToTop from '../../Components/ScrollToTop';
 
 const DigitalArts = () => {
     return (
         <>
+        <ScrollToTop/>
         <CourseCard>
             <CourseDetailse>
                 <ImageCard>
-                    <CourseImage src={Bussines}/>
+                    <CourseImage src={DigitalArt}/>
                 </ImageCard>
                 <CourseInfo>
                     <Course>

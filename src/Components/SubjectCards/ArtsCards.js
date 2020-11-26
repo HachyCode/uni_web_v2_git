@@ -8,7 +8,7 @@ import {
     SubjectsH2,
     SubjectsP,
 } from '../Subjects/SubjectsElements';
-import Bussines from '../../Images/Bussines.jpg';
+import DigitalArts from '../../Images/DigitalArts.jpg';
 
 const ArtsCards = () => {
     return (
@@ -18,25 +18,25 @@ const ArtsCards = () => {
         <SubjectsWrapper>
 
             <SubjectsCard to='/DigitalArts' activeStyle>
-            <img src={Bussines} height="100px"/>
+            <img src={DigitalArts} height="100px"/>
             <SubjectsH2>Digital Arts</SubjectsH2>
             <SubjectsP>FDA</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={DigitalArts} height="100px"/>
             <SubjectsH2>Performing Arts</SubjectsH2>
             <SubjectsP>BA (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={DigitalArts} height="100px"/>
             <SubjectsH2>Performing Arts (Dance)</SubjectsH2>
             <SubjectsP>HND</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={Bussines} height="100px"/>
+            <img src={DigitalArts} height="100px"/>
             <SubjectsH2>Performing Arts (Musical Theatre)</SubjectsH2>
             <SubjectsP>HND</SubjectsP>
             </SubjectsCard>

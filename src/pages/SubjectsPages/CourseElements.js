@@ -24,13 +24,11 @@ export const CourseImage = styled.img`
     width: auto;
     height: 400px;
 
-    @media screen and (max-width: c) {
+    @media screen and (max-width: 700px) {
         width: 90vw;
         height: auto;
     }
 `;
-
-
 
 export const CourseInfo = styled.div`
     background: white;
