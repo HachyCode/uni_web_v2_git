@@ -105,6 +105,45 @@ export const CourseOtherInfo = styled.div`
 export const KeyFacts = styled.div`
     background: yellow;
     height: 400px;
+    padding: 20px 0px;
 `;
 
 
+
+export const TopCard = styled.div`
+    background: lightblue;
+    font-size: 2rem;
+`;
+export const LeftCard = styled.div`
+
+`;
+export const Location = styled.div`
+
+`;
+export const Icon = styled.div`
+
+`;
+export const Text = styled.div`
+
+`;
+export const Title = styled.div`
+
+`;
+export const PInfo = styled.div`
+
+`;
+export const Duration = styled.div`
+
+`;
+export const StartDates = styled.div`
+
+`;
+export const TuitionFees = styled.div`
+
+`;
+export const RightCard = styled.div`
+
+`;
+export const EntryRequiremts = styled.div`
+
+`;
