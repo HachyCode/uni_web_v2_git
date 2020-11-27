@@ -10,21 +10,6 @@ export const SubjectsContainer = styled.div`
   background: #fff;
   padding: 50px 0;
 
-  @media screen and (max-width: 1500px){
-    height: 900px;
-  }
-
-  @media screen and (max-width: 1090px){
-    height: 1200px;
-  }
-
-  @media screen and (max-width: 768px) {
-    height: 1500px;
-  }
-
-  @media screen and (max-width: 480px) {
-    height: 3000px;
-  }
 `;
 
 export const SubjectsWrapper = styled.div`

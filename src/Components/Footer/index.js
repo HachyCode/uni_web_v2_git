@@ -10,17 +10,17 @@ import { animateScroll as scroll } from 'react-scroll';
 import {
   FooterContainer,
   FooterWrap,
-  FooterLinksContainer,
-  FooterLinksWrapper,
-  FooterLinkItems,
-  FooterLinkTitle,
-  FooterLink,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
   WebsiteRights,
   SocialIcons,
-  SocialIconLink
+  SocialIconLink,
+  Location,
+  Phone,
+  Email,
+  ContactUs,
+  Lines
 } from './FooterElements';
 import white_Logo from '../../Images/Logo_White.png';
 
@@ -31,16 +31,13 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrap>
-        <FooterLinksContainer>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLink to='/'>Phone 028358089346</FooterLink>
-              <FooterLink to='/'>Location</FooterLink>
-              <FooterLink to='/'></FooterLink>
-              <FooterLink to='/'>Sponsorships</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-        </FooterLinksContainer>
+        <ContactUs>
+        <Location>Park Crescent Campus ,Peterborough, Cambridgeshire PE1 4DZ, United Kingdom</Location>
+        <Lines>
+            <Phone>01733 214466</Phone>
+            <Email>hello@ucp.ac.uk</Email>
+        </Lines>
+        </ContactUs>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
