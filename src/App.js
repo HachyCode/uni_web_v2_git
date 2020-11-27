@@ -12,6 +12,7 @@ import Footer from './Components/Footer';
 import SingIn from './pages/SingIn';
 import DigitalArts from './pages/SubjectsPages/DigitalArts';
 import Corona from './pages/CoronaPage/Corona';
+import PHELetter from './pages/CoronaPage/PHELetter.pdf';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
 
           <Route path='/DigitalArts' component={DigitalArts} />
           <Route path='/Corona' component={Corona} />
+          <Route path='/PHELetter' component={PHELetter} />
         </Switch>
         <Footer/>
       </Router>
