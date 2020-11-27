@@ -11,6 +11,7 @@ import Main from './pages';
 import Footer from './Components/Footer';
 import SingIn from './pages/SingIn';
 import DigitalArts from './pages/SubjectsPages/DigitalArts';
+import Corona from './pages/CoronaPage/Corona';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           <Route path='/SingIn' component={SingIn} />
 
           <Route path='/DigitalArts' component={DigitalArts} />
+          <Route path='/Corona' component={Corona} />
         </Switch>
         <Footer/>
       </Router>

@@ -5,7 +5,6 @@ import {
     SubjectsWrapper,
     SubjectsCard,
     SubjectsH2,
-    SubjectsP
 } from '../Components/NewsCards/NewsElements';
 import '../Components/NewsCards/Icon.css';
 
@@ -16,8 +15,8 @@ const News = () => {
         <SubjectsH1>News</SubjectsH1>
         <SubjectsWrapper>
 
-            <SubjectsCard> 
-            <i class="fas fa-shield-virus fa-3x"></i>
+            <SubjectsCard to='/Corona' activeStyle> 
+              <i class="fas fa-shield-virus fa-3x"></i>
               <div>
               <SubjectsH2>Courona Viruse</SubjectsH2>
               </div>

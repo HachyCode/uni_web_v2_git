@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link as Link } from 'react-router-dom';
 
 export const SubjectsContainer = styled.div`
   height: 90vh;
@@ -29,7 +30,7 @@ export const SubjectsWrapper = styled.div`
   }
 `;
 
-export const SubjectsCard = styled.div`
+export const SubjectsCard = styled(Link)`
   background: #31b7bc;
   display: grid;
   grid-template-columns: 1fr 3fr;

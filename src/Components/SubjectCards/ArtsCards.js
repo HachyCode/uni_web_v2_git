@@ -4,12 +4,10 @@ import {
     SubjectsH1,
     SubjectsWrapper,
     SubjectsCard,
-    SubjectsIcon,
     SubjectsH2,
     SubjectsP,
-    ImageCard
 } from '../Subjects/SubjectsElements';
-import DigitalArts from '../../Images/DigitalArts.jpg';
+import DigitalArt from '../../Images/DigitalArts.jpg';
 
 const ArtsCards = () => {
     return (
@@ -19,25 +17,25 @@ const ArtsCards = () => {
         <SubjectsWrapper>
 
             <SubjectsCard to='/DigitalArts' activeStyle>
-            <img src={DigitalArts} height="200px"/>
+            <img src={DigitalArt} height="200px"/>
             <SubjectsH2>Digital Arts</SubjectsH2>
             <SubjectsP>FDA</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={DigitalArts} height="200px"/>
+            <img src={DigitalArt} height="200px"/>
             <SubjectsH2>Performing Arts</SubjectsH2>
             <SubjectsP>BA (HONS)</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={DigitalArts} height="200px"/>
+            <img src={DigitalArt} height="200px"/>
             <SubjectsH2>Performing Arts (Dance)</SubjectsH2>
             <SubjectsP>HND</SubjectsP>
             </SubjectsCard>
 
             <SubjectsCard>
-            <img src={DigitalArts} height="200px"/>
+            <img src={DigitalArt} height="200px"/>
             <SubjectsH2>Performing Arts (Musical Theatre)</SubjectsH2>
             <SubjectsP>HND</SubjectsP>
             </SubjectsCard>
