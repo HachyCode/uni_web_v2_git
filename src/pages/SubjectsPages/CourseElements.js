@@ -156,6 +156,7 @@ export const MiddleCards = styled.div`
     background: #ededed;
     padding: 10px;
     border-bottom-style: solid;
+    border-color: #b2dddf;
 
     display: grid;
     grid-template-columns: 50px auto;
