@@ -1,5 +1,16 @@
 import styled from 'styled-components';
 
+export const GradeCard  = styled.div`
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const SelectGrade  = styled.div`
+padding: 20px;
+`;
+
 export const UcasCard = styled.div`
     background: white;
     height: auto;

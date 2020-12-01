@@ -1,5 +1,6 @@
-import React, { Component, useState } from 'react';
-import Select from 'react-select';
+import React from 'react';
+import Calculate from './Calculate';
+import { GradeCard, SelectGrade } from './UCASElements';
 
 const option1 = [
     {value: '0', label: 'Select Grade'},
@@ -30,14 +31,16 @@ class Grade extends React.Component {
         {
             return(
                 <div>
-                    <div className="select-container">
-                        <select value={this.state.qualification} onChange={this.handleChange}>
-                            {option1.map((option1) => (
-                            <option value={option1.value}>{option1.label}</option>
-                            ))}
-                        </select>
-                        <p>{this.state.qualification}</p>
-                    </div>
+                    <GradeCard>
+                        <SelectGrade>
+                            <select value={this.state.qualification} onChange={this.handleChange}>
+                                {option1.map((option1) => (
+                                <option value={option1.value}>{option1.label}</option>
+                                ))}
+                            </select>
+                        </SelectGrade>
+                        <Calculate grade = {this.state.qualification}/>
+                    </GradeCard>
                 </div>
             );
         }

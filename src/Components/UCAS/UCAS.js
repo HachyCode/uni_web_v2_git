@@ -33,6 +33,7 @@ const options = [
     { value: '12', label: 'Welsh Baccalaureate' },
 ]
 
+
 class UCAS extends React.Component {
 
     constructor(props) {
@@ -40,11 +41,10 @@ class UCAS extends React.Component {
         this.state = {
             qualification: "0",
         };
-
         this.handleChange = this.handleChange.bind(this);
-        }
+    }
 
-        handleChange(e) {
+    handleChange(e) {
         console.log("Qualification Selected!!");
         this.setState({ qualification: e.target.value });
     }
@@ -53,9 +53,7 @@ class UCAS extends React.Component {
         return (
             <>
             <UcasCard>
-                <TotalPoints><Text>Total Points:</Text><Amount>120</Amount></TotalPoints>
                 <Select>
-                    <Icon><i class="fas fa-plus-circle fa-2x"></i></Icon>
                     <Qualification>
                         <div id="App">
                             <div className="select-container">
@@ -69,7 +67,6 @@ class UCAS extends React.Component {
                     </Qualification>
                     <Grades qualificationValue = {this.state.qualification}/>
                 </Select>
-                <AddSelection><Icon><i class="fas fa-minus-circle fa-2x"></i></Icon></AddSelection>
             </UcasCard>
         </>
         );

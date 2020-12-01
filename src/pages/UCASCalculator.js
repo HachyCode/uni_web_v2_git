@@ -5,6 +5,10 @@ const UCASCalculator = () => {
   return (
     <div>
       <UCAS/>
+      <UCAS/>
+      <UCAS/>
+      <UCAS/>
+      <UCAS/>
     </div>
   );
 };
