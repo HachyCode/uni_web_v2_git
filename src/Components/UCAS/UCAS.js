@@ -1,13 +1,8 @@
 import React from 'react'
 import {
     UcasCard,
-    TotalPoints,
-    Text,
-    Amount,
     Select,
-    Icon,
     Qualification,
-    AddSelection,
 } from './UCASElements';
 import Grades from './GradeSelection';
 
