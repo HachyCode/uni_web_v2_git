@@ -1,6 +1,4 @@
-import React, { Component, useState } from 'react'
-import Select from 'react-select'
-
+import React, { Component, useState, useEffect, useRef  } from 'react'
 
 const options = [
     { value: '1', label: 'A-Level' },
@@ -28,18 +26,37 @@ const options = [
     { value: '17', label: 'T Level' },
 ]
 
-const SelectQualification = () => (
-    <Select
-    placeholder='Select Qualification'
-    options={options}
-    theme={theme => ({
-        ...theme,
-        borderRadius: 0,
-        colors:{
-        ...theme.colors,
-        primary25: '#b2dddf',
-        primary: '#f08575',
-    },})} />
-)
+class SelectQualification extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            qualification: "2",
+        };
+
+        this.handleChange = this.handleChange.bind(this);
+        }
+
+        handleChange(e) {
+        console.log("Qualification Selected!!");
+        this.setState({ qualification: e.target.value });
+    }
+
+    render() {
+        return (
+        <div id="App">
+            <div className="select-container">
+            <select value={this.state.qualification} onChange={this.handleChange}>
+                {options.map((option) => (
+                <option value={option.value}>{option.label}</option>
+                ))}
+            </select>
+            <p>{this.state.qualification}</p>
+            </div>
+        </div>
+        );
+    }
+}
+
 
 export default SelectQualification
