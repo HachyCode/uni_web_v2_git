@@ -1,6 +1,4 @@
 import React from 'react';
-import Test from './UCAS';
-
 class Calculate extends React.Component {
     render(){
         return(
