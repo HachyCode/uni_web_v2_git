@@ -132,13 +132,13 @@ class Grade extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            qualification: "0",
+            grade: "0",
         };
         this.handleChange = this.handleChange.bind(this);
         }
         handleChange(e) {
-        console.log("Qualification Selected!!");
-        this.setState({ qualification: e.target.value });
+        console.log("grade Selected!!");
+        this.setState({ grade: e.target.value });
     }
     render(){
 
@@ -148,13 +148,13 @@ class Grade extends React.Component {
                 <div>
                     <GradeCard>
                         <SelectGrade>
-                            <select value={this.state.qualification} onChange={this.handleChange}>
+                            <select value={this.state.grade} onChange={this.handleChange}>
                                 {option1.map((option1) => (
                                 <option value={option1.value}>{option1.label}</option>
                                 ))}
                             </select>
                         </SelectGrade>
-                        <Calculate grade = {this.state.qualification}/>
+                        <Calculate grade = {this.state.grade}/>
                     </GradeCard>
                 </div>
             );
@@ -166,197 +166,197 @@ class Grade extends React.Component {
                     <div>
                         <GradeCard>
                             <SelectGrade>
-                                <select value={this.state.qualification} onChange={this.handleChange}>
+                                <select value={this.state.grade} onChange={this.handleChange}>
                                     {option2.map((option2) => (
                                     <option value={option2.value}>{option2.label}</option>
                                     ))}
                                 </select>
                             </SelectGrade>
-                            <Calculate grade = {this.state.qualification}/>
+                            <Calculate grade = {this.state.grade}/>
                         </GradeCard>
                     </div>
                 );
-            }
+        }
 
-            if (this.props.qualificationValue == 3)
+        if (this.props.qualificationValue == 3)
             {
                 return(
                     <div>
                         <GradeCard>
                             <SelectGrade>
-                                <select value={this.state.qualification} onChange={this.handleChange}>
+                                <select value={this.state.grade} onChange={this.handleChange}>
                                     {option3.map((option3) => (
                                     <option value={option3.value}>{option3.label}</option>
                                     ))}
                                 </select>
                             </SelectGrade>
-                            <Calculate grade = {this.state.qualification}/>
+                            <Calculate grade = {this.state.grade}/>
                         </GradeCard>
                     </div>
                 );
-            }
+        }
 
-            if (this.props.qualificationValue == 4)
+        if (this.props.qualificationValue == 4)
             {
                 return(
                     <div>
                         <GradeCard>
                             <SelectGrade>
-                                <select value={this.state.qualification} onChange={this.handleChange}>
+                                <select value={this.state.grade} onChange={this.handleChange}>
                                     {option4.map((option4) => (
                                     <option value={option4.value}>{option4.label}</option>
                                     ))}
                                 </select>
                             </SelectGrade>
-                            <Calculate grade = {this.state.qualification}/>
+                            <Calculate grade = {this.state.grade}/>
                         </GradeCard>
                     </div>
                 );
-            }
+        }
 
-            if (this.props.qualificationValue == 5)
+        if (this.props.qualificationValue == 5)
             {
                 return(
                     <div>
                         <GradeCard>
                             <SelectGrade>
-                                <select value={this.state.qualification} onChange={this.handleChange}>
+                                <select value={this.state.grade} onChange={this.handleChange}>
                                     {option5.map((option5) => (
                                     <option value={option5.value}>{option5.label}</option>
                                     ))}
                                 </select>
                             </SelectGrade>
-                            <Calculate grade = {this.state.qualification}/>
+                            <Calculate grade = {this.state.grade}/>
                         </GradeCard>
                     </div>
                 );
-            }
+        }
 
-            if (this.props.qualificationValue == 6)
+        if (this.props.qualificationValue == 6)
             {
                 return(
                     <div>
                         <GradeCard>
                             <SelectGrade>
-                                <select value={this.state.qualification} onChange={this.handleChange}>
+                                <select value={this.state.grade} onChange={this.handleChange}>
                                     {option6.map((option6) => (
                                     <option value={option6.value}>{option6.label}</option>
                                     ))}
                                 </select>
                             </SelectGrade>
-                            <Calculate grade = {this.state.qualification}/>
+                            <Calculate grade = {this.state.grade}/>
                         </GradeCard>
                     </div>
                 );
-            }
+        }
 
-            if (this.props.qualificationValue == 7)
+        if (this.props.qualificationValue == 7)
             {
                 return(
                     <div>
                         <GradeCard>
                             <SelectGrade>
-                                <select value={this.state.qualification} onChange={this.handleChange}>
+                                <select value={this.state.grade} onChange={this.handleChange}>
                                     {option7.map((option7) => (
                                     <option value={option7.value}>{option7.label}</option>
                                     ))}
                                 </select>
                             </SelectGrade>
-                            <Calculate grade = {this.state.qualification}/>
+                            <Calculate grade = {this.state.grade}/>
                         </GradeCard>
                     </div>
                 );
-            }
+        }
 
-            if (this.props.qualificationValue == 8)
+        if (this.props.qualificationValue == 8)
             {
                 return(
                     <div>
                         <GradeCard>
                             <SelectGrade>
-                                <select value={this.state.qualification} onChange={this.handleChange}>
+                                <select value={this.state.grade} onChange={this.handleChange}>
                                     {option8.map((option8) => (
                                     <option value={option8.value}>{option8.label}</option>
                                     ))}
                                 </select>
                             </SelectGrade>
-                            <Calculate grade = {this.state.qualification}/>
+                            <Calculate grade = {this.state.grade}/>
                         </GradeCard>
                     </div>
                 );
-            }
+        }
 
-            if (this.props.qualificationValue == 9)
+        if (this.props.qualificationValue == 9)
             {
                 return(
                     <div>
                         <GradeCard>
                             <SelectGrade>
-                                <select value={this.state.qualification} onChange={this.handleChange}>
+                                <select value={this.state.grade} onChange={this.handleChange}>
                                     {option9.map((option9) => (
                                     <option value={option9.value}>{option9.label}</option>
                                     ))}
                                 </select>
                             </SelectGrade>
-                            <Calculate grade = {this.state.qualification}/>
+                            <Calculate grade = {this.state.grade}/>
                         </GradeCard>
                     </div>
                 );
-            }
+        }
 
-            if (this.props.qualificationValue == 10)
+        if (this.props.qualificationValue == 10)
             {
                 return(
                     <div>
                         <GradeCard>
                             <SelectGrade>
-                                <select value={this.state.qualification} onChange={this.handleChange}>
+                                <select value={this.state.grade} onChange={this.handleChange}>
                                     {option10.map((option10) => (
                                     <option value={option10.value}>{option10.label}</option>
                                     ))}
                                 </select>
                             </SelectGrade>
-                            <Calculate grade = {this.state.qualification}/>
+                            <Calculate grade = {this.state.grade}/>
                         </GradeCard>
                     </div>
                 );
-            }
+        }
 
-            if (this.props.qualificationValue == 11)
+        if (this.props.qualificationValue == 11)
             {
                 return(
                     <div>
                         <GradeCard>
                             <SelectGrade>
-                                <select value={this.state.qualification} onChange={this.handleChange}>
+                                <select value={this.state.grade} onChange={this.handleChange}>
                                     {option11.map((option11) => (
                                     <option value={option11.value}>{option11.label}</option>
                                     ))}
                                 </select>
                             </SelectGrade>
-                            <Calculate grade = {this.state.qualification}/>
+                            <Calculate grade = {this.state.grade}/>
                         </GradeCard>
                     </div>
                 );
-            }
+        }
 
-            if (this.props.qualificationValue == 12)
-            {
-                return(
-                    <div>
-                        <GradeCard>
-                            <SelectGrade>
-                                <select value={this.state.qualification} onChange={this.handleChange}>
-                                    {option12.map((option12) => (
-                                    <option value={option12.value}>{option12.label}</option>
-                                    ))}
-                                </select>
-                            </SelectGrade>
-                            <Calculate grade = {this.state.qualification}/>
-                        </GradeCard>
-                    </div>
-                );
-            }
+        if (this.props.qualificationValue == 12)
+        {
+            return(
+                <div>
+                    <GradeCard>
+                        <SelectGrade>
+                            <select value={this.state.grade} onChange={this.handleChange}>
+                                {option12.map((option12) => (
+                                <option value={option12.value}>{option12.label}</option>
+                                ))}
+                            </select>
+                        </SelectGrade>
+                        <Calculate grade = {this.state.grade}/>
+                    </GradeCard>
+                </div>
+            );
+    }
 
         return(
             <div>

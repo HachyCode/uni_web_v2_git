@@ -1,7 +1,7 @@
 import React from 'react'
 import {
     UcasCard,
-    Select,
+    SelectCard,
     Qualification,
 } from './UCASElements';
 import Grades from './GradeSelection';
@@ -48,20 +48,16 @@ class UCAS extends React.Component {
         return (
             <>
             <UcasCard>
-                <Select>
+                <SelectCard>
                     <Qualification>
-                        <div id="App">
-                            <div className="select-container">
-                                <select value={this.state.qualification} onChange={this.handleChange}>
-                                    {options.map((option) => (
-                                    <option value={option.value}>{option.label}</option>
-                                    ))}
-                                </select>
-                            </div>
-                        </div>
+                        <select value={this.state.qualification} onChange={this.handleChange}>
+                            {options.map((option) => (
+                            <option value={option.value}>{option.label}</option>
+                            ))}
+                        </select>
                     </Qualification>
                     <Grades qualificationValue = {this.state.qualification}/>
-                </Select>
+                </SelectCard>
             </UcasCard>
         </>
         );

@@ -1,46 +1,37 @@
 import styled from 'styled-components';
 
-export const GradeCard  = styled.div`
-    height: auto;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-`;
-
-export const SelectGrade  = styled.div`
-padding: 20px;
-`;
-
 export const UcasCard = styled.div`
     background: white;
     height: auto;
+
+    background: blue;
 `;
-export const TotalPoints = styled.div`
+export const SelectCard = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 64px;
+
+    background: red;
+`;
+export const Qualification = styled.div`
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    padding: 20px;
+
+    background: green;
+`;
+
+export const GradeCard  = styled.div`
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
-    font-weight: 700;
+
+    background: pink;
 `;
-export const Text = styled.div`
-    padding: 10px;
-`;
-export const Amount = styled.div`
-    padding: 10px;
-`;
-export const Select = styled.div`
-    display:flex;
-    align-items: center;
-`;
-export const Icon = styled.div`
-    padding: 10px;
-    color: #31b7bc;
-`;
-export const Qualification = styled.div`
-    width: 50vw;
-    color: #000;
-`;
-export const Grade = styled.div`
-`;
-export const AddSelection = styled.div`
+export const SelectGrade  = styled.div`
+    padding: 20px;
 `;
