@@ -129,6 +129,7 @@ const option12 = [
 ]
 
 class Grade extends React.Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -356,11 +357,11 @@ class Grade extends React.Component {
                     </GradeCard>
                 </div>
             );
-    }
+        }
 
         return(
             <div>
-                <h1>{this.props.qualificationValue}</h1> 
+                <h1>{this.props.qualificationValue}</h1>
             </div>
         );
 
