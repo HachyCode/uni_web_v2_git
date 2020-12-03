@@ -14,7 +14,7 @@ const SportCards = () => {
     return (
         <>
         <SubjectsContainer>
-        <SubjectsH1>Sport</SubjectsH1>
+        
         <SubjectsWrapper>
 
             <SubjectsCard>

@@ -56,9 +56,8 @@ export const SubjectsCard = styled(Link)`
 export const SubjectsH1 = styled.h1`
   font-size: 2.5rem;
   color: #000;
-  margin-bottom: 64px;
   font-weight: 700;
-  width: 100vw;
+  width: 95vw;
   background: #b2dddf;
   text-align: center;
 

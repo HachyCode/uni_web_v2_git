@@ -361,7 +361,7 @@ class Grade extends React.Component {
 
         return(
             <div>
-                <h1>{this.props.qualificationValue}</h1>
+                <h2></h2>
             </div>
         );
 

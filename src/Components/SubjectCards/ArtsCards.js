@@ -13,7 +13,6 @@ const ArtsCards = () => {
     return (
         <>
         <SubjectsContainer>
-        <SubjectsH1>Arts</SubjectsH1>
         <SubjectsWrapper>
 
             <SubjectsCard to='/DigitalArts' activeStyle>
