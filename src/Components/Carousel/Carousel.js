@@ -6,25 +6,25 @@ import carousel_3 from '../../Images/Carousel_3.png';
 
 const CarouselIndex = () => {
     return (
-        <div className="d-flex justify-content-center" style={{width: '99vw', background: '#005c6e'}}>
+        <div className="d-flex justify-content-center" style={{width: '100vw', background: '#005c6e'}}>
             <Carousel indicators = {false} fade = {true}>
                 <Carousel.Item interval={1000}>
                     <img
-                    className="d-block w-99"
+                    className="d-block w-100"
                     src={carousel_1}
                     alt="First slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item interval={1000}>
                     <img
-                    className="d-block w-99"
+                    className="d-block w-100"
                     src={carousel_2}
                     alt="Second slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item interval={1000}>
                     <img
-                    className="d-block w-99"
+                    className="d-block w-100"
                     src={carousel_3}
                     alt="Third slide"
                     />

@@ -10,10 +10,12 @@ import {
     Important,
     Bul
 } from './CoronaElements';
+import ScrollToTop from '../../Components/ScrollToTop';
 
 const Corona = () => {
     return (
     <>
+    <ScrollToTop/>
     <CoronaCard>
         <MainTitle>Updated Covid-19 guidance for students</MainTitle>
         <Text>Following the Prime Minister’s address on 22 September 2020 and the new restrictions that are to be implemented in England, we are taking some further actions to mitigate the risks of COVID-19 infections.</Text>

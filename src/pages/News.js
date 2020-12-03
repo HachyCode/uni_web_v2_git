@@ -7,10 +7,12 @@ import {
     SubjectsH2,
 } from '../Components/NewsCards/NewsElements';
 import '../Components/NewsCards/Icon.css';
+import ScrollToTop from '../Components/ScrollToTop';
 
 const News = () => {
     return (
         <>
+        <ScrollToTop/>
         <SubjectsContainer>
         <SubjectsH1>News</SubjectsH1>
         <SubjectsWrapper>
